@@ -1,0 +1,26 @@
+<!--main gallery start here-->
+<div class="main-gallery container" ng-controller="MainGalleryCtrl">
+  <div ng-repeat="galleryItem in mainGallery">
+    <a href="#/gallery/{{galleryItem.url}}">
+      <div class="col-md-3 col-sm-6 col-xs-12 main-gallery-item-outer">
+        <div class="inner-box">
+          <figure class="image-box">
+            <img src="../images/gallery/{{galleryItem.mainImage}}" alt="">
+            <!--Overlay Box-->
+            <div class="overlay-one">
+              <div class="overlay-inner">
+                <div class="content"></div>
+              </div>
+            </div>
+          </figure>
+
+          <!--Caption Box-->
+          <div class="caption-box-two">
+            <h3>{{ 'GALLERY_PAGE.' + galleryItem.name | translate}}</h3>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+<!--main gallery end here-->

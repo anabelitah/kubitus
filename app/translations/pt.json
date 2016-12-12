@@ -1,0 +1,58 @@
+{
+  "HOME": "Página Principal",
+  "ABOUT": "Empresa",
+  "GALLERY": "Produtos",
+  "CONTACT": "Contactos",
+  "CONTACT_US": "Contacte-nos",
+  "CONTACT_INFO": "Informação de Contacto",
+  "YOUR_NAME": "Nome",
+  "YOUR_EMAIL": "Email",
+  "YOUR_MESSAGE": "Mensagem",
+  "SUBMIT": "Enviar",
+  "INFORMATION": "Informação",
+  "FOLLOW": "Seguir",
+  "MAIN_HOME": {
+    "CUSTOMIZED_SOLUTIONS": "As soluções que você precisa!",
+    "SOLUTIONS_DESCRIPTION": "Kubitu's marca um estilo e uma época primando sempre pela qualidade e empenho em tudo o que faz.",
+    "WELCOME": {
+      "KITCHEN": "Cozinhas",
+      "FURNITURE": "Mobiliário",
+      "ESTOFOS": "Estofos",
+      "CHAIRS": "Cadeiras/Mesas",
+      "IMAGINE": "Você imagina, nós fazemos!",
+      "DESCRIPTION": "A Kubitu's garante qualidade acima da média e um serviço inteiramente vocacionado para satisfazer o cliente. Neste momento têm clientes no mercado nacional e em diversos países da união europeia."
+    },
+    "WORK": {
+      "IMPRESSED": "Gosta do nosso trabalho?",
+      "GET_IN_TOUCH": "Contactar"
+    },
+    "HISTORY": {
+      "TITLE": "Um olhar sobre a nossa história"
+    }
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "Empresa",
+    "DESCRIPTION": {
+      "P1": "A empresa Kubitu's nasceu em 2002 e foi criada com o ituito de satisfazer algumas lacunas no mercado nacional e internacional em relação aos móveis portugueses.",
+      "P2": "Desde cedo que a Kubitu's começou a colocar a sua marca nos produtos e serviços que fornecia, com uma qualidade acima da média e um serviço inteiramente vocacionado para satisfazer o cliente conseguiu crescer e melhorar ainda mais a qualidade.",
+      "P3": "Neste momento a Kubitu's têm clientes no mercado nacional e em diveros países da união europeia como a França ou o Luxemburgo onde a sua marca é mais notória.",
+      "P4": "Com o natural desenvolvimento da empresa as instalações e os meios disponíveis também foram aumentando o que permite acompanhar uma encomenda desde as simples medições dos locais como os desenhos a três dimensões dos móveis, a construção específica para cada cliente e os processos de acabamento e logística/montagem.",
+      "P5": "Podemos dizer que a Kubitu's marca um estilo e uma época com a qualidade apresentada em tudo o que se empenha em fazer."
+    },
+    "ADVANTAGES": {
+      "1": "Medições dos locais",
+      "2": "Desenhos a três dimensões",
+      "3": "Construção específica para cada cliente",
+      "4": "Processos de acabamento e logística/montagem"
+    }
+  },
+  "GALLERY_PAGE": {
+    "KITCHEN": "Cozinhas",
+    "FURNITURE": "Mobiliário",
+    "ESTOFOS": "Estofos",
+    "CHAIRS": "Cadeiras / Mesas",
+    "ALL": "Todos"
+  },
+  "PAGE_NOT_FOUND": "Página não encontrada",
+  "GO_BACK_HOME": "Voltar à página principal"
+}

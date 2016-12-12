@@ -1,0 +1,76 @@
+/*--top header start here--*/
+.top-header {
+  /** Logo **/
+  .logo {
+    background: url(../images/icons/logo.png) no-repeat $background;
+    width: 223px;
+    height: 110px;
+    display: inline-block;
+  }
+
+  .top-header-main {
+    margin-bottom: 1.2em;
+    padding: 0.8em 0em;
+  }
+
+  .top-social .top-social-list {
+    list-style: none;
+    text-align: right;
+    padding: 70px 0 0 0;
+    .top-social-nav {
+      display: inline-block;
+      margin-right: 0.5em;
+      h5 {
+        font-size: 1em;
+        color: #fff;
+      }
+      .top-social-anchor {
+        vertical-align: middle;
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        .fb, .pt, .fr, .en {
+          width: 32px;
+          height: 32px;
+          display: inline-block;
+          padding: 1em 1em;
+          border-radius: 42px;
+          border: 2px solid transparent;
+          &.selected, &:hover {
+            border-color: #d1d1d1;
+          }
+        }
+        .fb {
+          background: url(../images/icons/fb.png) no-repeat $icons-background;
+          background-position: -8px -7px;
+          transition: 0.5s all;
+          -webkit-transition: 0.5s all;
+          -moz-transition: 0.5s all;
+          -o-transition: 0.5s all;
+        }
+        .pt {
+          background: url(../images/icons/pt_flag_32r.png) no-repeat $icons-background;
+          transition: 0.5s all;
+          -webkit-transition: 0.5s all;
+          -moz-transition: 0.5s all;
+          -o-transition: 0.5s all;
+        }
+        .fr {
+          background: url(../images/icons/fr_flag_32r.png) no-repeat $icons-background;
+          transition: 0.5s all;
+          -webkit-transition: 0.5s all;
+          -moz-transition: 0.5s all;
+          -o-transition: 0.5s all;
+        }
+        .en {
+          background: url(../images/icons/en_flag_32r.png) no-repeat $icons-background;
+          transition: 0.5s all;
+          -webkit-transition: 0.5s all;
+          -moz-transition: 0.5s all;
+          -o-transition: 0.5s all;
+        }
+      }
+    }
+  }
+}
+/*--*/

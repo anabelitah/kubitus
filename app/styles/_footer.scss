@@ -1,0 +1,86 @@
+/*--footer starts here--*/
+
+.footer {
+  padding: 5em 0em 5em 0em;
+  background: $background;
+
+  .footer-grid h4 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 0.7em;
+  }
+
+  .ftr-social-icons {
+    padding: 1em 0em 0em 0em;
+    list-style: none;
+    li {
+      a {
+        background: url(../images/icons/fb_big.png) no-repeat transparent;
+        width: 64px;
+        height: 64px;
+        display: inline-block;
+      }
+      display: inline-block;
+      margin-right: 9px;
+    }
+  }
+
+  .ftr-text {
+    p {
+      font-size: 1em;
+      color: #fff;
+      line-height: 1.8em;
+    }
+    float: right;
+    width: 80%;
+  }
+
+  .footer-grid h5 {
+    font-size: 1.3em;
+    color: #fff;
+  }
+
+  .ftr-iblock {
+    float: left;
+    width: 18%;
+    .glyphicon {
+      &.glyphicon-map-marker, &.glyphicon-earphone, &.glyphicon-envelope {
+        font-size: 1.5em;
+        color: #fff;
+      }
+    }
+  }
+
+  .ftr-icons {
+    margin-bottom: 1em;
+  }
+
+  .ftr-text p {
+    font-size: 1em;
+    a {
+      color: #fff;
+      &:hover {
+        color: #07a5ad;
+      }
+    }
+  }
+
+  .footer-grid p {
+    font-size: 0.95em;
+    color: #fff;
+    line-height: 2em;
+  }
+
+  .copy p a {
+    color: #fff;
+    &:hover {
+      color: #07a5ad;
+    }
+  }
+
+  .newsletter-w3 ::-webkit-input-placeholder, .head-search ::-webkit-input-placeholder {
+    color: #fff !important;
+  }
+}
+
+/*--footer end here--*/

@@ -1,0 +1,58 @@
+{
+  "HOME": "Home",
+  "ABOUT": "Enterprise",
+  "GALLERY": "Produits",
+  "CONTACT": "Contacts",
+  "CONTACT_US": "Contactez Nous",
+  "CONTACT_INFO": "Informations de contact",
+  "YOUR_NAME": "Nom",
+  "YOUR_EMAIL": "Email",
+  "YOUR_MESSAGE": "Message",
+  "SUBMIT": "Soumettre",
+  "INFORMATION": "Informations",
+  "FOLLOW": "Suivre",
+  "MAIN_HOME": {
+    "CUSTOMIZED_SOLUTIONS": "Les solutions dont vous avez besoin!",
+    "SOLUTIONS_DESCRIPTION": "La marque d'un style et le temps de Kubitu toujours à la recherche de qualité et d'engagement à tout ce qu'il fait.",
+    "WELCOME": {
+      "KITCHEN": "Cuisines",
+      "FURNITURE": "Meubles",
+      "ESTOFOS": "Tapisserie",
+      "CHAIRS": "Chaises/Tables",
+      "IMAGINE": "Vous imaginez, nous le faisons!",
+      "DESCRIPTION": "Les garanties de la Kubitu supérieurs à la moyenne qualité et un service entièrement consacré à satisfaire le client. A ce moment, nous avons des clients sur le marché intérieur et dans plusieurs pays de l'Union européenne."
+    },
+    "WORK": {
+      "IMPRESSED": "Êtes-vous impressionné par notre travail?",
+      "GET_IN_TOUCH": "Contactez Nous"
+    },
+    "HISTORY": {
+      "TITLE": "Revoir notre Histoire"
+    }
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "A propos de nous",
+    "DESCRIPTION": {
+      "P1": "La société du Kubitu est né en 2002 et a été créé avec ituito pour répondre à certaines lacunes dans le marché national et international pour le mobilier portugais.",
+      "P2": "Au début de cette Kubitu de commencé à mettre sa marque sur les produits et services fournis, avec une qualité supérieure à la moyenne et d'un service entièrement consacré à satisfaire le client pourrait se développer et améliorer encore la qualité.",
+      "P3": "A cette époque, les Kubitu allons avoir des clients dans les pays du marché et Diveros nationaux de l'Union européenne comme la France ou le Luxembourg où votre marque est plus visible.",
+      "P4": "Avec le développement naturel de la société des installations et des ressources disponibles ont été également en hausse, qui permet de suivre un ordre à partir de mesures simples à partir de sites comme les dessins en trois dimensions des meubles, la construction spécifique pour chaque client et les processus finition et logistique / assemblage.",
+      "P5": "Nous pouvons dire que la marque Kubitu un style et le temps de la qualité présentée dans tout ce qui vise à faire."
+    },
+    "ADVANTAGES": {
+      "1": "Nous réalisons toutes les mesures de la section locale",
+      "2": "Nous concevons des dessins en trois dimensions",
+      "3": "Construction spécifique pour chaque client",
+      "4": "Processus de finition et de la logistique / assemblage"
+    }
+  },
+  "GALLERY_PAGE": {
+    "KITCHEN": "Cuisines",
+    "FURNITURE": "Meubles",
+    "ESTOFOS": "Tapisserie",
+    "CHAIRS": "Chaises / Tables",
+    "ALL": "Tout"
+  },
+  "PAGE_NOT_FOUND": "Page non trouvée",
+  "GO_BACK_HOME": "Retour à la page d'accueil"
+}

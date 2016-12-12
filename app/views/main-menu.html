@@ -1,0 +1,34 @@
+<!--header start here-->
+<!-- NAVBAR ================================================== -->
+<div class="header w3l"  ng-controller="MenuCtrl">
+  <div class="fixed-header">
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <nav class="cl-effect-3" id="cl-effect-3">
+              <ul class="nav navbar-nav">
+                <li><a class="nav-item{{ isActive('home') ? ' active' : '' }}" href="#/home">{{'HOME' | translate}}</a></li>
+                <li><a class="nav-item{{ isActive('about') ? ' active' : '' }}" href="#/about">{{'ABOUT' | translate}}</a></li>
+                <li><a class="nav-item{{ isActive('gallery') ? ' active' : '' }}" href="#/gallery">{{'GALLERY' | translate}}</a></li>
+                <li><a class="nav-item{{ isActive('contact') ? ' active' : '' }}" href="#/contact">{{'CONTACT' | translate}}</a></li>
+              </ul>
+            </nav>
+
+          </div>
+          <div class="clearfix"> </div>
+        </nav>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+</div>
+<!--header end here-->

@@ -1,0 +1,19 @@
+<!--banner  start hwew-->
+<div class="banner" ng-controller="SliderSlickCtrl">
+  <div class="container">
+    <div class="banner-main">
+      <script type="text/ng-template" id="tpl2.html">
+        <div class="{{slide.class}}">
+          <h3>{{ slide.label }}</h3>
+        </div>
+      </script>
+
+      <slick class="slider" settings="slickConfig" ng-if="slickConfigLoaded" dots="true">
+        <div ng-repeat="slide in slides track by $index">
+          <div class="" ng-include="'tpl2.html'"></div>
+        </div>
+      </slick>
+    </div>
+  </div>
+</div>
+<!--BANNER END HERE-->

@@ -1,0 +1,108 @@
+/*--conatct strat her--*/
+.contact-container {
+  width: 100%;
+  padding: 0;
+}
+
+.contact {
+  padding: 2em 0em;
+  .contact-top h2 {
+    font-size: 3em;
+    color: #E7E9ED;
+    text-align: center;
+    margin-bottom: 1.2em;
+  }
+
+  .contact-left {
+    p {
+      font-size: 0.95em;
+      color: $main-text-color;
+      margin: 0.5em 0em;
+    }
+    input[type="text"] {
+      border: 1px solid #ccc;
+      padding: 0.5em 1em;
+      width: 100%;
+      color: #929191;
+      outline: none;
+      border-radius: 2px;
+    }
+    textarea {
+      border: 1px solid #ccc;
+      width: 100%;
+      color: #929191;
+      padding: 0.5em 1em;
+      height: 9em;
+      outline: none;
+      resize: none;
+      border-radius: 2px;
+    }
+    input[type="submit"] {
+      font-size: 1em;
+      color: #fff;
+      padding: 0.5em 1em;
+      background: $sub-text-color;
+      border: none;
+      outline: none;
+      margin-top: 1em;
+      border-radius: 2px;
+      &:hover {
+        background: #B30019;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+      }
+    }
+  }
+
+  .contact-right {
+    h4 {
+      font-size: 1.7em;
+      color: $sub-text-color;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 0.95em;
+      color: $main-text-color;
+      line-height: 2em;
+    }
+    ul {
+      padding: 2em 0em 0em 0em;
+      list-style: none;
+      li {
+        margin-bottom: 1em;
+        font-size: 0.95em;
+        color: $main-text-color;
+        a {
+          color: $sub-text-color;
+          &:hover {
+            color: #B30019;
+          }
+        }
+      }
+    }
+    span.glyphicon {
+      &.glyphicon-map-marker, &.glyphicon-phone, &.glyphicon-envelope {
+        font-size: 1.5em;
+        color: #E7E9ED;
+        vertical-align: top;
+        margin-right: 0.2em;
+      }
+    }
+  }
+}
+
+/*--conatc end here--*/
+/*--map strat here--*/
+
+.map {
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+  padding-bottom: 5em;
+}
+
+/*--map end here--*/

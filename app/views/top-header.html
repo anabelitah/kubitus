@@ -1,0 +1,21 @@
+<!--header-top start here-->
+<div class="top-header" ng-controller="LanguageCtrl" ng-init="myLanguage()">
+  <div class="container">
+    <div class="top-header-main">
+      <div class="col-md-8">
+        <h1><a  href="#/home" class="logo"></a></h1>
+      </div>
+      <div class="col-md-4 top-social">
+        <ul class="top-social-list">
+          <li class="top-social-nav"><a class="top-social-anchor" href="#"><span class="fb"> </span></a></li>
+          <li class="top-social-nav"><a class="top-social-anchor" ng-click="changeLanguage('pt')"><span class="pt{{ isLanguageSelected('pt') ? ' selected' : '' }}"> </span></a></li>
+          <li class="top-social-nav"><a class="top-social-anchor" ng-click="changeLanguage('fr')"><span class="fr{{ isLanguageSelected('fr') ? ' selected' : '' }}"> </span></a></li>
+          <li class="top-social-nav"><a class="top-social-anchor" ng-click="changeLanguage('en')"><span class="en{{ isLanguageSelected('en') ? ' selected' : '' }}"> </span></a></li>
+        </ul>
+      </div>
+
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+</div>
+<!--header-top end here-->

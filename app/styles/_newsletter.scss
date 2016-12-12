@@ -1,0 +1,53 @@
+/*--newsletter start here--*/
+
+.newsletter {
+  padding: 5em 0em;
+  background: $menu-color;
+}
+
+.newsletter-main {
+  border: 2px solid #fff;
+  padding: 2em 2em;
+  h5 {
+    font-size: 1.2em;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    padding-top: 0.4em;
+  }
+}
+
+.newsletter-w3 {
+  float: right;
+  width: 45%;
+  input {
+    &[type="text"] {
+      font-size: 1em;
+      color: #fff;
+      padding: 0.5em 1em;
+      background: none;
+      border: 2px solid #fff;
+      outline: none;
+      width: 80%;
+    }
+    &[type="submit"] {
+      font-size: 1em;
+      color: #fff;
+      background: $menu-selected;
+      border: none;
+      width: 18%;
+      padding: 0.65em 1em;
+      display: inline-block;
+      outline: none;
+      &:hover {
+        background: #424040;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+      }
+    }
+  }
+}
+
+/*--newsletter end here--*/

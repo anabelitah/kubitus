@@ -1,0 +1,78 @@
+/*--language pop up--*/
+.modal-backdrop {
+  &.fade {
+    background: #d1d1d1;
+  }
+}
+
+.modal {
+  .modal-body {
+    background: $background;
+    text-align: center;
+
+    .close {
+      border-radius: 42px;
+      width: 30px;
+      height: 30px;
+      border: 2px solid #d1d1d1;
+      color: white;
+      text-shadow: none;
+    }
+  }
+
+  /** Logo **/
+  .logo {
+    background: url(../images/icons/logo.png) no-repeat $background;
+    width: 223px;
+    height: 110px;
+    display: inline-block;
+  }
+
+  .languages-list {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+    .languages-list-sub {
+      width: 223px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .pt, .fr, .en {
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      padding: 1em 1em;
+      margin-right: 20px;
+      border-radius: 42px;
+      border: 2px solid transparent;
+
+      &:hover {
+        border-color: #d1d1d1;
+      }
+    }
+    .pt {
+      background: url(../images/icons/pt_flag_32r.png) no-repeat $icons-background;
+      transition: 0.5s all;
+      -webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+    }
+    .fr {
+      background: url(../images/icons/fr_flag_32r.png) no-repeat $icons-background;
+      transition: 0.5s all;
+      -webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+    }
+    .en {
+      background: url(../images/icons/en_flag_32r.png) no-repeat $icons-background;
+      transition: 0.5s all;
+      -webkit-transition: 0.5s all;
+      -moz-transition: 0.5s all;
+      -o-transition: 0.5s all;
+    }
+  }
+
+}

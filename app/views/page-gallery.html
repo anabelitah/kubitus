@@ -1,0 +1,46 @@
+<!--product gallery start here-->
+<div class="gallery-page container" ng-controller="PageGalleryCtrl">
+  <div ng-if="galleryPageFounded">
+    <div class="main-title">
+      <h3 class="main-gallery-title">
+        {{ 'GALLERY_PAGE.' + galleryPage.name | translate}}
+      </h3>
+    </div>
+    <div class="filters text-center">
+      <ul class="filter-tabs filter-btns clearfix">
+        <li class="filter all-products {{selectedItem == 'all-products' ? 'active' : ''}}" data-role="button" data-filter="all" ng-click="events.selectItem('all-products')">{{ 'GALLERY_PAGE.ALL' | translate}}</li>
+        <li class="filter {{galleryItemKey}} {{selectedItem == galleryItemKey ? 'active': ''}}" ng-repeat="(galleryItemKey, galleryPageItem) in galleryPage.category" data-role="button" ng-click="events.selectItem(galleryItemKey)" data-filter="{{ galleryPageItem.filter }}">{{ galleryPageItem.name }}</li>
+      </ul>
+    </div>
+    <div class="filter-list" masonry="{ transitionDuration: '0.5s'}" reload-on-resize reload-on-show>
+      <div ng-repeat="galleryPageItem in allGalleryItems | filter: (selectedItem === 'all-products') ? undefined : { type: selectedItem }"
+           masonry-brick class="col-lg-3 col-md-4 col-sm-6 col-xs-12 masonry-brick page-gallery-item-outer {{galleryPageItem.type}}">
+        <a href="#/gallery/{{galleryPage.url}}/{{galleryPageItem.type}}">
+          <div class="inner-box">
+            <figure class="image-box">
+              <img src="../images/{{galleryPageItem.image}}" alt="">
+            </figure>
+
+            <!--Overlay Box-->
+            <div class="overlay-one">
+              <div class="overlay-inner">
+                <div class="content">
+                  <span class="zoom-in"></span>
+                </div>
+              </div>
+            </div>
+
+            <!--Caption Box-->
+            <div class="caption-box-one">
+              <h3>{{ galleryPage.category[galleryPageItem.type].name }}</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div ng-if="!galleryPageFounded">
+    <div page-not-founded></div>
+  </div>
+</div>
+<!--product gallery end here-->

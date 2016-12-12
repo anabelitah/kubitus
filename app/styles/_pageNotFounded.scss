@@ -1,0 +1,43 @@
+/*--page not founded start here--*/
+.page-not-found-container {
+  padding: 5em 0em;
+  text-align: center;
+
+  h3 {
+    color: $menu-color;
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  h4 {
+    color: $menu-selected;
+    font-size: 30px;
+  }
+
+  .go-back {
+    margin: 2em;
+    font-size: 1em;
+    display: inline-block;
+    padding: 0.7em 1.2em;
+    background: $menu-color;;
+    animation: blinkred 5s;
+    -moz-animation: blinkred 5s infinite; /* Firefox */
+    -webkit-animation: blinkred 5s infinite; /* Safari and Chrome */
+  }
+
+
+  @-moz-keyframes blinkred /* Firefox */
+  {
+    0%   {background:$menu-color; border: 1px solid $sub-text-color;}
+    50%  {background:$menu-selected; border: 1px solid $sub2-text-color;}
+    100%   {background:$menu-color; border: 1px solid $sub-text-color;}
+  }
+
+  @-webkit-keyframes blinkred /* Safari and Chrome */
+  {
+    0%   {background:$menu-color; border: 1px solid $sub-text-color;}
+    50%  {background:$menu-selected; border: 1px solid $sub2-text-color;}
+    100%   {background:$menu-color; border: 1px solid $sub-text-color;}
+  }
+}
+/*--*/

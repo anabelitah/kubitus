@@ -1,0 +1,58 @@
+{
+  "HOME": "Home",
+  "ABOUT": "About",
+  "GALLERY": "Gallery",
+  "CONTACT": "Contact",
+  "CONTACT_US": "Contact Us",
+  "CONTACT_INFO": "Contact Info",
+  "YOUR_NAME": "Name",
+  "YOUR_EMAIL": "Email",
+  "YOUR_MESSAGE": "Message",
+  "SUBMIT": "Submit",
+  "INFORMATION": "Information",
+  "FOLLOW": "Follow",
+  "MAIN_HOME": {
+    "CUSTOMIZED_SOLUTIONS": "The solutions you need!",
+    "SOLUTIONS_DESCRIPTION": "Kubitu's marks a style and a time always striving for quality and commitment in everything it does.",
+    "WELCOME": {
+      "KITCHEN": "Kitchen",
+      "FURNITURE": "Furniture",
+      "ESTOFOS": "Estofos",
+      "CHAIRS": "Chairs/Tables",
+      "IMAGINE": "You Imagine, we do!",
+      "DESCRIPTION": "Kubitu's guarantees above-average quality and a service that is entirely dedicated to satisfying the customer. At the moment they have clients in the national market and in several countries of the European Union."
+    },
+    "WORK": {
+      "IMPRESSED": "Are You Impressed By Our Work?",
+      "GET_IN_TOUCH": "Get In Touch"
+    },
+    "HISTORY": {
+      "TITLE": "Look back to our History"
+    }
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "About Us",
+    "DESCRIPTION": {
+      "P1": "Kubitu's company was born in 2002 and was created with the purpose of satisfying some gaps in the national and international market in relation to Portuguese furniture.",
+      "P2": "From a very early stage, Kubitu's began to put its mark on the products and services it provided, with a quality above average and a service fully dedicated to satisfy the customer was able to grow and improve quality even more.",
+      "P3": "At this moment Kubitu's have customers in the national market and in different countries of the European Union such as France or Luxembourg where its brand is more noticeable.",
+      "P4": "With the natural development of the company the facilities and the available means have also been increased allowing an order to be tracked from the simple measurements of places such as the three-dimensional drawings of the furniture, the specific construction for each client and the processes Finishing and logistics / assembly.",
+      "P5": "We can say that Kubitu's marks a style and an era with the quality presented in everything it strives to do."
+    },
+    "ADVANTAGES": {
+      "1": "We take all site measurements",
+      "2": "We design three-dimensional drawings",
+      "3": "Specific construction for each customer",
+      "4": "Finishing processes and logistics / assembly"
+    }
+  },
+  "GALLERY_PAGE": {
+    "KITCHEN": "Kitchen",
+    "FURNITURE": "Furniture",
+    "ESTOFOS": "Estofos",
+    "CHAIRS": "Chairs / Tables",
+    "ALL": "All"
+  },
+  "PAGE_NOT_FOUND": "Page not found",
+  "GO_BACK_HOME": "Go Back To Home"
+}

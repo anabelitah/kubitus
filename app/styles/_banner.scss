@@ -1,0 +1,92 @@
+/*--banner start here--*/
+.banner-cropped {
+  background: url(../images/banners/banner1.png) no-repeat center;
+  min-height: 160px;
+  background-size: cover;
+  text-align: center;
+  //border-radius: 5px;
+  color: #fff;
+
+  .container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.banner-cropped-main {
+  padding-top: 5em;
+  text-align: center;
+  h3 {
+    font-size: 3em;
+    color: $menu-color;
+    padding: 0.2em 0em;
+    letter-spacing: 4px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.4em;
+  }
+}
+
+
+/*--Slider Part starts Here--*/
+/*-- w3layouts --*/
+.banner {
+  .container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .banner-slide-1 {
+    background: url(../images/banners/banner1.png) no-repeat center;
+    min-height: 300px;
+    background-size: cover;
+    text-align: center;
+  }
+  .banner-slide-2 {
+    background: url(../images/banners/banner2.png) no-repeat center;
+    min-height: 300px;
+    background-size: cover;
+    text-align: center;
+  }
+  .banner-slide-3 {
+    background: url(../images/banners/banner3.png) no-repeat center;
+    min-height: 300px;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .slick-prev {
+    left: 25px;
+
+  }
+
+  .slick-next {
+    right: 25px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    z-index: 2;
+    &:before {
+      color: $menu-color;
+    }
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+
+  .slick-dots {
+    bottom: 0;
+    button:before {
+      color: #F5586E;
+    }
+    li.slick-active button:before {
+      color: #eb0e2d;
+    }
+  }
+}
+
+/*--//Slider part Ends Here --*/
+/*--banner end here--*/
